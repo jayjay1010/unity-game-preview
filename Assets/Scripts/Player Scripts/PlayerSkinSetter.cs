@@ -1,0 +1,11 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class PlayerSkinSetter : MonoBehaviour
+{
+    void Start()
+    {
+        GetComponent<SpriteRenderer>().sprite = SkinManager.selectedSprite;
+    }
+}

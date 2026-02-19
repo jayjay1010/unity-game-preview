@@ -4,7 +4,40 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEditor;
 
+
 public class SkinManager : MonoBehaviour
+{
+    public SpriteRenderer sr;
+    public List<Sprite> skins = new List<Sprite>();
+    public static Sprite selectedSprite;  // store selected skin globally
+    private int selectedSkin = 0;
+
+    public void NextOption()
+    {
+        selectedSkin++;
+        if (selectedSkin == skins.Count)
+            selectedSkin = 0;
+
+        sr.sprite = skins[selectedSkin];
+    }
+
+    public void BackOption()
+    {
+        selectedSkin--;
+        if (selectedSkin < 0)
+            selectedSkin = skins.Count - 1;
+
+        sr.sprite = skins[selectedSkin];
+    }
+
+    public void PlayGame()
+    {
+        selectedSprite = skins[selectedSkin]; // store selection
+        SceneManager.LoadScene("Level 1");   // go to game scene
+    }
+}
+
+/*public class SkinManager : MonoBehaviour
 {
     public SpriteRenderer sr;
     public List<Sprite> skins = new List<Sprite>();
@@ -37,3 +70,4 @@ public class SkinManager : MonoBehaviour
         SceneManager.LoadScene("GamePlay");
     }
 }
+*/

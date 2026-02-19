@@ -27500,7 +27500,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &666599637
 RectTransform:
   m_ObjectHideFlags: 0
@@ -27517,7 +27517,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -761.00006, y: 356.01}
+  m_AnchoredPosition: {x: -761.00006, y: 318}
   m_SizeDelta: {x: 162.15, y: 69.78}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &666599638
@@ -34353,7 +34353,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2757514769027487200, guid: 9cae29033a2954aafb5ec270279b6fe4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.03
+      value: -3.91
       objectReference: {fileID: 0}
     - target: {fileID: 2757514769027487200, guid: 9cae29033a2954aafb5ec270279b6fe4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -46122,7 +46122,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2496e9065a4c64914aabc1d386d4f06d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bounceForce: 16
+  bounceForce: 17
 --- !u!95 &1145282488
 Animator:
   serializedVersion: 7
@@ -50293,7 +50293,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1263590625
 RectTransform:
   m_ObjectHideFlags: 0
@@ -79165,7 +79165,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -761, y: 462}
+  m_AnchoredPosition: {x: -766, y: 424}
   m_SizeDelta: {x: 143.92, y: 72.53}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1995354639
