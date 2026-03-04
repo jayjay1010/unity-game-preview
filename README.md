@@ -56,6 +56,12 @@ This project demonstrates gameplay systems, prefab management, scene organizatio
 
 ---
 
+## Video Demo
+
+Watch the gameplay demo here:
+
+https://youtu.be/pNuIzs2AXxA
+
 ## 👨‍💻 Author
 
 Jose Jimenez  
